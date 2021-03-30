@@ -1,0 +1,69 @@
+@media screen and (max-width:500px) {
+    .container {
+        flex-direction: column;
+    }
+    .main {
+        top: 106px;
+        transition: 0.8s;
+    }
+    .container ul li {
+        display: block;
+        padding: 7px;
+    }
+    .container ul li a {
+        font-size: 15px;
+    }
+    .navvv {
+        background-color: #0000009e;
+        width: 185px;
+        height: 164px;
+        /* text-align: left; */
+        position: absolute;
+        left: -400px;
+        top: 65px;
+        transition: 1s;
+    }
+    .form {
+        padding-left: 0px;
+        padding-top: 3px;
+        position: absolute;
+        top: 67px;
+        left: -400px;
+        transition: 1s;
+    }
+    input[type="text"] {
+        padding: 1px 0 1px 8px;
+        border-radius: 6px;
+        /* border: 1px solid red; */
+        height: 13px;
+        width: 74px;
+        position: relative;
+    }
+    .btn img {
+        width: 9px;
+    }
+    .btn {
+        border: none;
+        border-radius: 6px;
+        width: 13px;
+        height: 13px;
+        padding-top: -12px;
+        cursor: pointer;
+        position: absolute;
+        right: 4px;
+        top: 6px;
+    }
+    #btm {
+        width: 27px;
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        display: block;
+    }
+    .copyright {
+        padding-right: 25px;
+    }
+    .time {
+        padding: 7px;
+    }
+}
